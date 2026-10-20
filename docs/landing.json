@@ -1,0 +1,24 @@
+{
+  "seo_title": "Sunburst disk usage analyzer for macOS",
+  "seo_description": "DiskSunburst is a free, open-source Mac app that scans any folder or drive and shows what uses your space in an interactive sunburst chart.",
+  "hero_title_line1": "See what eats",
+  "hero_title_accent": "your disk space.",
+  "hero_sub": "Scan a folder or drive and explore it as an interactive sunburst chart, then reveal or trash what you don't need. Drop a folder on the window or press ⌘O to start.",
+  "features_title": "Scan, see, drill down, clean up.",
+  "features_sub": "DiskSunburst covers the core loop of disk cleanup and nothing else, in a native SwiftUI app.",
+  "features": [
+    {"icon": "folder", "title": "Live sunburst chart", "desc": "The scanned folder sits at the center and each ring is one level deeper, with arc angles proportional to size. The chart updates while the scan is still running."},
+    {"icon": "cursor", "title": "Hover and drill down", "desc": "Hover an arc to see its name, size and share of its parent. Click a folder to make it the new center, and press Esc or use the breadcrumb to go back."},
+    {"icon": "text", "title": "Largest-items list", "desc": "A sorted list beside the chart shows the biggest children with size bars. Double-click a folder to drill into it."},
+    {"icon": "shield", "title": "Reveal, open or trash", "desc": "Reveal in Finder, open, copy the path, or move an item to the Trash after a confirmation. Trashed items stay recoverable, and the scan root can't be trashed."},
+    {"icon": "cpu", "title": "Careful, background scanning", "desc": "Sums on-disk allocated sizes off the main thread. Symbolic links are skipped and hard links are counted once, so totals aren't inflated."},
+    {"icon": "sliders", "title": "Simple settings", "desc": "Show hidden files, treat app bundles as single items, and set the maximum ring depth from 2 to 8. Items under 1% merge into a gray Smaller items arc."}
+  ],
+  "permissions_step": "Optionally grant Full Disk Access in System Settings > Privacy & Security > Full Disk Access to scan protected locations or a whole disk.",
+  "faq": [
+    {"q": "Is DiskSunburst really free and open source?", "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, no ads and no paid tier. If it saves you space, there is an optional Support button."},
+    {"q": "What permissions does it need?", "a": "None beyond the standard macOS file-access prompts, which appear the first time a scan reads Desktop, Documents, Downloads or removable volumes. Full Disk Access is optional and only needed for protected locations. Without it, unreadable folders are counted and reported, and the scan continues."},
+    {"q": "Where is my data stored?", "a": "Nothing leaves your Mac. DiskSunburst makes no network calls and has no analytics, and scan results live in memory only while the app is open. Only your settings are saved locally, as standard macOS preferences."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, which this free project doesn't have. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

@@ -1,5 +1,7 @@
 # DiskSunburst
 
+**🌐 Website:** [turhe123.github.io/disk-sunburst](https://turhe123.github.io/disk-sunburst/)
+
 Scan a folder or drive and see what eats your space in an interactive sunburst chart, then reveal or trash it.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ DiskSunburst is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-sunburst.png" alt="DiskSunburst main window showing a sunburst chart of a scanned folder" width="720"></p>
+
+<p align="center"><em>A scanned folder shown as an interactive sunburst, with one color per top-level folder and a size-sorted list of the largest items beside it.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-drill-down.png" alt="Sunburst drilled into a subfolder with breadcrumb and hover details" width="560"></p>
+
+<p align="center"><em>Drilled into the Projects folder: the breadcrumb tracks your path and hovering an arc shows its name, size and share of its parent.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="DiskSunburst Settings window" width="560"></p>
+
+<p align="center"><em>Settings for showing hidden files, treating app bundles as single items, and choosing the maximum ring depth.</em></p>
 
 ## Install
 

@@ -1,0 +1,5 @@
+[
+  {"file":"01-sunburst.png","caption":"A scanned folder shown as an interactive sunburst, with one color per top-level folder and a size-sorted list of the largest items beside it.","alt":"DiskSunburst main window showing a sunburst chart of a scanned folder"},
+  {"file":"02-drill-down.png","caption":"Drilled into the Projects folder: the breadcrumb tracks your path and hovering an arc shows its name, size and share of its parent.","alt":"Sunburst drilled into a subfolder with breadcrumb and hover details"},
+  {"file":"03-settings.png","caption":"Settings for showing hidden files, treating app bundles as single items, and choosing the maximum ring depth.","alt":"DiskSunburst Settings window"}
+]
